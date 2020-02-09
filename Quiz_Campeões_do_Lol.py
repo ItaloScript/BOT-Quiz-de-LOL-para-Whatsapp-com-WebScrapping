@@ -119,16 +119,6 @@ class lol_quiz():
         return f"Tentativas Restantes:{6-stage_lol} \n\n Eis uma frase de sua lore: {frase}"
 
 
-def frase_gerador():
-    count = randint(1,9656)
-    count_id = randint(0,19)
-    request = get(f"https://www.pensador.com/frases/{count}/")
-    quotes_all = BeautifulSoup(request.text,"html.parser")
-    quotes_fr = quotes_all.find_all(class_="frase")[count_id].get_text()
-    quotes_author = quotes_all.find_all(class_="frase")[count_id].find_next_sibling().get_text()
-    return(f"{quotes_fr} - {quotes_author}") 
-
-
 SECRET_KEY = 'My secret key'
 app = Flask(__name__)
 app.config.from_object(__name__)
