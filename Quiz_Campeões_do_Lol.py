@@ -123,12 +123,6 @@ SECRET_KEY = 'My secret key'
 app = Flask(__name__)
 app.config.from_object(__name__)
 
-callers = {
-    "+559991184567": "Italo",
-    "+12349013030": "Finn",
-    "+12348134522": "Chewy",
-}
-
 command_select=0
 @app.route("/", methods=['GET', 'POST'])
 def hello():
