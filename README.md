@@ -1,5 +1,5 @@
 # -BOT-Quiz-de-LOL-para-Whatsapp
-Esse é um bot feito em python para whatsapp que interage com o usuario usando o servidor do twillio ,  webhook com ngrok e um pouquinho de flask
+Esse é um bot feito em python para whatsapp que interage com o usuario usando o servidor do twillio,webscraping com Selenium e BeatifulSoup,  webhook com ngrok e um pouquinho de flask
 
 Sites Usados:
 Forneceram o Bot pra poder programar
