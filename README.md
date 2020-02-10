@@ -2,7 +2,7 @@
 Esse é um bot feito em python para whatsapp que interage com o usuario usando o servidor do twillio,webscraping com Selenium e BeatifulSoup,  webhook com ngrok e um pouquinho de flask
 
 Sites Usados:
-Forneceram o Bot pra poder programar
+Forneceu o numero de telefone de whatsapp com o servidor pra poder programar
 www.twilio.com/referral/n53fQ4:
 
 Pegar informações sobre nome do campeão e rota com BeatifulSoup:
