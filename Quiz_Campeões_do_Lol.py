@@ -130,8 +130,8 @@ def hello():
 
     
     message_command = request.values.get('Body')
-    print(message_command)
-    system("pause")
+    print("digitou" + message_command)
+ 
     if(stage==0):
         if "lol quiz" in message_command.lower():
             message = lol_quiz().iniciar()
